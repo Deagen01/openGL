@@ -23,8 +23,18 @@
                 // "-o",
                 // "${fileDirname}/${fileBasenameNoExtension}"
                 "-o",
-                "window.out",
-                "${fileDirName}/${fileBasename}",
+                "${fileBasenameNoExtension}",
+                "${fileBasename}",
+                "gl.c",
+                "-I./depends/include",
+                "-L./depends",
+                "-lglfw3",
+                "-lGL",
+                "-lX11",
+                "-lpthread",
+                "-lXrandr",
+                "-lXi",
+                "-ldl",
 
             ],
             "options": {
