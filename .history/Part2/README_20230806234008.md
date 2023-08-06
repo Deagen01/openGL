@@ -1,0 +1,14 @@
+***
+命令参考
+g++ -g -o colors colors.cpp ../gl.c -I../depends/include -L../depends -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+***
+colors.cpp
+加入光源，通过光源照亮物体
+使用了两个shader进行渲染，通过绑定不同的数据来渲染不同的对象
+使用的pos buffer相同
+但是view model 矩阵不同，绑定的fs vs不同
+
+使用了camera class
+camera相关数据从存储在camera class
+每次构建view矩阵调用
+刷新对应数据调用
