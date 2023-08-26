@@ -74,3 +74,6 @@ model_loading2.cpp
 改成导入diffuse color显示
 可以通过phong模型计算三个部分更真实，之后有空可以尝试
 对assimp的API还不熟悉
+***
+model_loading3.cpp
+导入了艺术家设计的模型nano
