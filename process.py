@@ -1,7 +1,24 @@
-# 导入re模块，用于正则表达式替换
+# process.py预处理文件
+
+# 在#include <stb_image.h>之前加入
+
+# #define STB_IMAGE_IMPLEMENTATION
+
+# 以及
+
+# ```
+
+# #include <glad/gl.h>
+
+# GLADloadproc->GLADloadfunc
+
+# gladLoadGLLoader->gladLoadGL
+
+# GLFW_CURSOR_DISABLED->GLFW_CURSOR_NORMAL
+
+# ```
 import re
 import sys
-# 定义一个函数，接受一个cpp文件名作为参数
 
 def add_string(filename):
     # 打开文件，读取内容
