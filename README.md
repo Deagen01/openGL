@@ -1,12 +1,2 @@
 OpenGL学习
-***
-process.py
-在#include <stb_image.h>之前加入
-#define STB_IMAGE_IMPLEMENTATION
-以及
-```
-#include <glad/gl.h>
-GLADloadproc->GLADloadfunc
-gladLoadGLLoader->gladLoadGL
-GLFW_CURSOR_DISABLED->GLFW_CURSOR_NORMAL
-```
+https://learnopengl.com/

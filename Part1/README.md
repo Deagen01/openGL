@@ -17,9 +17,9 @@ INCLUDE:-I../depends/include
 ***
 VBO.cpp：
 使用VBO绘制三角形
-命令：
+命令：注意导入文件是在父目录还是同级目录下
 ```
-g++ -o VBO VBO.cpp gl.c -I./depends/include -L./depends -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+g++ -o VBO VBO.cpp ../gl.c -I../depends/include -L../depends -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 ```
 ***
 trainagle2.cpp
