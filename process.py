@@ -58,7 +58,7 @@ def main():
     if len(sys.argv) >= 2:
         for i in range(1,len(sys.argv)):
             replace_string(sys.argv[i])
-            add_string(sys.argv[i])
+            # add_string(sys.argv[i])
     else:
         print("please input filename")
 # replace_string("example.cpp")
